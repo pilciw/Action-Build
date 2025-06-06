@@ -1,6 +1,6 @@
 **`简体中文`** | [English](README-en.md)
  
-[![Build](https://img.shields.io/badge/GitHub%20Actions-Build-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/Numbersf/Action-Build/actions/workflows/Build%20SukiSU%20Ultra%20OnePlus.yml) [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/taichi91) [![OnePlus Kernel Manifest](https://img.shields.io/badge/OnePlus%20Kernel%20Manifest-EB0029?logo=oneplus&logoColor=white&style=flat-square)](https://github.com/OnePlusOSS/kernel_manifest)
+[![Build](https://img.shields.io/badge/GitHub%20Actions-Build-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/Numbersf/Action-Build/actions/workflows/Build%20SukiSU%20Ultra%20OnePlus.yml) [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/taichi91) [![OnePlus Kernel Manifest](https://img.shields.io/badge/OnePlus%20Kernel%20Manifest-EB0029?logo=oneplus&logoColor=white&style=flat-square)](https://github.com/OnePlusOSS/kernel_manifest) [![Coolapk](https://img.shields.io/badge/Follow-Coolapk-3DDC84?style=flat-square&logo=android&logoColor=white)](http://www.coolapk.com/u/28259173)
  
 # Action-Build
 **```Build OnePlus SukiSU Ultra KPM Kernel```**
@@ -15,15 +15,15 @@
 > [!IMPORTANT]
 >关于要跑多久的问题 一般来说越往前的机型跑的速度越快
 >>***使用极速编译clang make***
->>>>0.已知的特殊机型:部分非A15机型(eg:一加11-A14)
+>>>>0.已知的特殊机型:部分非A15机型(eg:一加11-A14;一加11-A13)
 > 
->>>`1h12min~1h14min,max:?`
+>>>`1h12min~1h17min,max:?`
 >>>>0.其他所有机型
 > 
 >>>`22min~31min,max:35min`
 > 
 >>***使用官方build.sh***
->>>>0.已知的特殊机型:部分非A15机型(eg:一加11-A14)
+>>>>0.已知的特殊机型:部分非A15机型(eg:一加11-A14;一加11-A13不支持)
 > 
 >>>`1h22min~1h28min,max:?`
 >>>>1.sm8450、sm8475、sm8550
@@ -44,11 +44,11 @@
 >部分设备的``lz4kd``存在问题,修复中,**跑不出来请先不要启用``ZRAM``算法**,请提前备份``boot.img``
  
 ------
-> [!TIP]
->记得**音量下**安装模块!
- 
 > [!CAUTION]
 >请不要在**保``root``更新**时安装模块!
+ 
+> [!TIP]
+>记得**音量下**安装模块!
  
 ------
  

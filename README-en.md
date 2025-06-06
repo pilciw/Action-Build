@@ -1,6 +1,6 @@
 **`Enlish`** | [简体中文](README.md)
 
-[![Build](https://img.shields.io/badge/GitHub%20Actions-Build-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/Numbersf/Action-Build/actions/workflows/Build%20SukiSU%20Ultra%20OnePlus.yml) [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/taichi91) [![OnePlus Kernel Manifest](https://img.shields.io/badge/OnePlus%20Kernel%20Manifest-EB0029?logo=oneplus&logoColor=white&style=flat-square)](https://github.com/OnePlusOSS/kernel_manifest)
+[![Build](https://img.shields.io/badge/GitHub%20Actions-Build-181717?logo=github&logoColor=white&style=flat-square)](https://github.com/Numbersf/Action-Build/actions/workflows/Build%20SukiSU%20Ultra%20OnePlus.yml) [![Channel](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/taichi91) [![OnePlus Kernel Manifest](https://img.shields.io/badge/OnePlus%20Kernel%20Manifest-EB0029?logo=oneplus&logoColor=white&style=flat-square)](https://github.com/OnePlusOSS/kernel_manifest) [![Coolapk](https://img.shields.io/badge/Follow-Coolapk-3DDC84?style=flat-square&logo=android&logoColor=white)](http://www.coolapk.com/u/28259173)
 
 # Action-Build
 **```Build OnePlus SukiSU Ultra KPM Kernel```**
@@ -15,15 +15,15 @@
 > [!IMPORTANT]
 >Regarding build time: generally, the older the model, the faster the build.
 >>***Using clang make (ultra-fast build)***
->>>>0.Known exceptions: some non-A15 models (e.g. OnePlus 11-A14)
+>>>>0.Known exceptions: some non-A15 models (e.g. OnePlus 11-A14;OnePlus 11-A13)
 > 
->>>`1h12min~1h14min,max:?`
+>>>`1h12min~1h17min,max:?`
 >>>>0.All Other Devices
 > 
 >>>`22min~31min,max:35min`
 > 
 >>***Using official build.sh***
->>>>0.Known exceptions: some non-A15 models (e.g. OnePlus 11-A14)
+>>>>0.Known exceptions: some non-A15 models (e.g. OnePlus 11-A14;OnePlus 11-A13Not Supported)
 > 
 >>>`1h22min~1h28min,max:?`
 >>>>1.sm8450, sm8475, sm8550
@@ -41,14 +41,15 @@
  
 ------
 > [!WARNING]
->Some devices have issues with ``lz4kd``, currently under fix. **If the build fails, please don’t enable ``ZRAM algorithm`` yet.** Make sure to back up your ``boot.img`` in advance.
+>Some devices have issues with ``lz4kd``, currently under fix. **If the build fails, please don’t enable ``ZRAM`` algorithm yet.** Make sure to back up your ``boot.img`` in advance.
  
 ------
+> [!CAUTION] 
+>Please do not install modules during **root-preserving update**!
+ 
 > [!TIP]
 >Remember to press **Volume Down** to install the module!
  
-> [!CAUTION] 
->Please do not install modules during **root-preserving update**!
 ------
  
 # Changelog
